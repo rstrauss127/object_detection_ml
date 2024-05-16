@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../val/images
+test: ../test/images
+
+nc: 3
+names: ['mask_weared_incorrect', 'with_mask', 'without_mask']
+
+roboflow:
+  workspace: facemaskdetection-vrrvp
+  project: facemask_detection-wws6n
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/facemaskdetection-vrrvp/facemask_detection-wws6n/dataset/1
